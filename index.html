@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Para July ♡</title>
+<meta name="theme-color" content="#f8d9e8">
+<style>
+:root{--pink:#f3bfd5;--pink2:#ffe8f2;--cream:#fffaf7;--blue:#e5f0ff;--text:#66505d;--muted:#8c7581;--night:#22213a;--night2:#403653}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;overflow-x:hidden;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;color:var(--text);background:#fff8fb}button,a{font:inherit}.screen{min-height:100svh;position:relative;display:grid;place-items:center;overflow:hidden;padding:28px 18px}
+.hero{background:radial-gradient(circle at 50% 18%,rgba(255,255,255,.95) 0 5%,transparent 18%),linear-gradient(180deg,#f6d9e7,#ffdbe4 34%,#ffe9d3 67%,#e8efe2)}
+.sun{position:absolute;top:12%;left:50%;width:118px;height:118px;transform:translateX(-50%);border-radius:50%;background:radial-gradient(circle,#fffdf7 0 28%,#fff0c8 58%,rgba(255,240,200,.08) 72%);box-shadow:0 0 75px rgba(255,239,196,.9)}
+.cloud{position:absolute;width:125px;height:44px;border-radius:999px;background:rgba(255,255,255,.84);filter:drop-shadow(0 8px 20px rgba(134,103,124,.08));animation:drift var(--s) ease-in-out infinite alternate}.cloud:before,.cloud:after{content:"";position:absolute;border-radius:50%;background:inherit}.cloud:before{width:55px;height:55px;left:17px;top:-25px}.cloud:after{width:68px;height:68px;right:13px;top:-35px}.c1{left:-18px;top:17%;--s:7s;transform:scale(.75)}.c2{right:-22px;top:29%;--s:9s;transform:scale(.86)}.c3{right:15%;top:8%;--s:8s;transform:scale(.48);opacity:.75}@keyframes drift{to{translate:12px 5px}}
+.hill{position:absolute;bottom:-3vh;border-radius:55% 55% 0 0/75% 75% 0 0}.h1{left:-17%;width:79%;height:34vh;background:#c8d6c3}.h2{right:-15%;width:77%;height:40vh;background:#adbea9}.h3{left:17%;width:74%;height:24vh;background:#93a795}
+.card{position:relative;z-index:5;width:min(92vw,610px);text-align:center;padding:36px 26px 32px;border-radius:34px;border:2px solid rgba(255,255,255,.8);background:rgba(255,255,255,.58);backdrop-filter:blur(15px);box-shadow:0 20px 60px rgba(125,89,108,.14);animation:up .9s ease both}.card:before,.card:after{content:"♡";position:absolute;color:#e9aeca;font-size:18px}.card:before{top:16px;left:20px}.card:after{bottom:16px;right:20px}@keyframes up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.eyebrow{color:#987686;letter-spacing:.15em;font-size:.76rem;text-transform:uppercase}h1{margin:12px 0 13px;color:#765666;font-size:clamp(2.7rem,10vw,5rem);line-height:.98}.hero p{max-width:470px;margin:0 auto 24px;font-size:1.06rem;line-height:1.75}.btn{border:0;border-radius:999px;padding:14px 23px;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;text-decoration:none;color:#6c4e5d;font-weight:700;background:linear-gradient(90deg,#fff,#ffe9f3);box-shadow:0 10px 28px rgba(114,77,96,.15);transition:.22s}.btn:hover{transform:translateY(-2px) scale(1.015)}.btn:active{transform:scale(.98)}
+.character{position:absolute;z-index:4;max-width:130px;max-height:130px;object-fit:contain;filter:drop-shadow(0 8px 15px rgba(110,80,96,.12));animation:floaty 4s ease-in-out infinite}@keyframes floaty{50%{transform:translateY(-8px)}}.melody{left:2%;bottom:5%}.cinna{right:2%;top:8%}
+.letter-section{background:radial-gradient(circle at 10% 14%,rgba(255,255,255,.92),transparent 23%),radial-gradient(circle at 90% 78%,rgba(222,238,255,.58),transparent 26%),linear-gradient(180deg,#fff9fc,#fae8f1 52%,#f2e9f8)}.paper{position:relative;z-index:4;width:min(94vw,750px);padding:clamp(30px,6vw,58px);border-radius:30px;border:2px solid #fff;background:rgba(255,255,255,.8);box-shadow:0 24px 75px rgba(103,72,89,.12);line-height:1.92;font-size:1.055rem}.paper:before{content:"";position:absolute;inset:12px;pointer-events:none;border:1px dashed rgba(226,168,196,.48);border-radius:23px}.paper>*{position:relative;z-index:2}.paper h2{margin:8px 0 22px;color:#775766;font-size:clamp(2rem,7vw,2.8rem)}.paper p{margin:0 0 19px}.ribbon{width:72px;height:42px;margin:0 auto 13px;position:relative}.ribbon:before,.ribbon:after{content:"";position:absolute;top:9px;width:35px;height:25px;background:#f0b7d0;border-radius:70% 30% 60% 40%}.ribbon:before{left:3px;transform:rotate(22deg)}.ribbon:after{right:3px;transform:scaleX(-1) rotate(22deg)}.ribbon span{position:absolute;z-index:2;left:50%;top:13px;width:22px;height:22px;transform:translateX(-50%);border-radius:50%;background:#f6cada}.quote{color:#846d79;font-style:italic}.divider{width:105px;height:1px;margin:31px auto;background:linear-gradient(90deg,transparent,#ddaec5,transparent)}.music-box{text-align:center;padding:20px;border-radius:22px;background:linear-gradient(135deg,rgba(255,239,247,.9),rgba(235,244,255,.85));border:1px solid rgba(221,176,198,.35)}.music-box p{margin:0 0 13px;font-size:.93rem;color:#816875}.status{min-height:18px!important;margin:10px 0 0!important;font-size:.8rem!important;opacity:.72}
+.night{color:#fff;background:radial-gradient(circle at 76% 15%,rgba(255,255,255,.96) 0 2.7%,rgba(255,255,255,.15) 8%,transparent 15%),linear-gradient(180deg,#22213a,#2d2945 55%,#453957)}.night-card{position:relative;z-index:5;width:min(92vw,640px);text-align:center;padding:38px 27px;border-radius:32px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.065);backdrop-filter:blur(10px);box-shadow:0 22px 80px rgba(0,0,0,.24)}.night h2{margin:9px 0 14px;color:#fff;font-size:clamp(2.15rem,8vw,3.6rem)}.night-card p{color:rgba(255,255,255,.84);line-height:1.75}.wish{width:106px;height:106px;margin:28px auto 16px;display:grid;place-items:center;border-radius:50%;font-size:44px;color:#fff;cursor:pointer;user-select:none;background:radial-gradient(circle,#fff 0 7%,#ffe9f3 18%,rgba(255,255,255,.08) 55%,transparent 74%);filter:drop-shadow(0 0 21px rgba(255,229,241,.7));animation:pulse 2.7s ease-in-out infinite}@keyframes pulse{50%{transform:scale(1.09)}}#wishText{max-width:500px;min-height:72px;margin:auto;opacity:0;transform:translateY(9px);transition:.75s ease;color:#ffe9f3}#wishText.show{opacity:1;transform:none}.footer{margin-top:25px;font-size:.82rem;opacity:.57}.star{position:absolute;border-radius:50%;background:#fff;box-shadow:0 0 8px #fff;opacity:.25;animation:twinkle var(--d) ease-in-out infinite alternate}@keyframes twinkle{to{opacity:1;transform:scale(1.7)}}
+.petal{position:fixed;z-index:100;top:-25px;width:10px;height:15px;border-radius:70% 30% 70% 30%;background:rgba(255,205,228,.82);pointer-events:none;animation:fall var(--fall) linear forwards}@keyframes fall{to{transform:translate(var(--drift),110vh) rotate(620deg);opacity:.05}}.floating-music{position:fixed;right:16px;bottom:16px;z-index:90;width:49px;height:49px;display:none;border:1px solid rgba(255,255,255,.7);border-radius:50%;cursor:pointer;color:#725262;background:rgba(255,255,255,.86);box-shadow:0 9px 25px rgba(62,37,50,.15)}
+@media(max-width:600px){.character{max-width:96px;max-height:96px;opacity:.82}.card{padding:34px 22px}.paper{font-size:1rem}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<audio id="bgMusic" loop preload="metadata"><source src="musica.mp3" type="audio/mpeg"></audio>
+<button class="floating-music" id="floatingMusic" onclick="toggleMusic()" aria-label="Reproducir o pausar música">♫</button>
+
+<section class="screen hero" id="inicio">
+  <div class="sun"></div><div class="cloud c1"></div><div class="cloud c2"></div><div class="cloud c3"></div>
+  <div class="hill h1"></div><div class="hill h2"></div><div class="hill h3"></div>
+  <img class="character melody" src="imagenes/my-melody.png" alt="My Melody" onerror="this.style.display='none'">
+  <img class="character cinna" src="imagenes/cinnamoroll.png" alt="Cinnamoroll" onerror="this.style.display='none'">
+  <div class="card">
+    <div class="eyebrow">1 de octubre ♡ un pequeño detallito</div>
+    <h1>Hola, July ✨</h1>
+    <p>Guardé para ti un rinconcito tranquilo entre nubecitas, luz rosada y pequeñas estrellas. No tienes que hacer nada especial: solamente entrar, respirar un poquito y disfrutarlo a tu manera.</p>
+    <button class="btn" onclick="openLetter()">Abrir la cartita ♡</button>
+  </div>
+</section>
+
+<section class="screen letter-section" id="carta">
+  <article class="paper">
+    <div class="ribbon"><span></span></div>
+    <div class="eyebrow">para ti, en tu día</div>
+    <h2>Feliz cumpleaños, July 🤍</h2>
+    <p>Quise hacerte algo sencillo y bonito. Algo que se sintiera un poco como esos amaneceres tranquilos en los que el mundo todavía parece hablar bajito: sin ruido, sin prisa y sin tener que significar más de lo que tú quieras que signifique.</p>
+    <p>Espero que este nuevo año de tu vida te regale lugares donde puedas sentirte en paz, personas que te hagan bien, momentos que te permitan descansar y días que, aunque parezcan normales, terminen convirtiéndose en recuerdos que quieras guardar.</p>
+    <p>Ojalá nunca te falten esos pequeños refugios que aparecen en cosas simples: una canción bonita, un cielo rosado, un bosque silencioso, un campo tranquilo, una noche llena de estrellas o un amanecer que haga sentir que siempre existe la posibilidad de comenzar otra vez.</p>
+    <p>Este detallito no viene con ninguna expectativa escondida. No necesitas responder de una manera especial ni devolverme nada. Solo quería que existiera algo hecho con cariño para ti y que pudieras disfrutarlo con completa tranquilidad.</p>
+    <p>Porque también hay cariño en algo tan sencillo como alegrarse porque una persona existe, desearle cosas bonitas y respetar siempre su espacio para ser ella misma.</p>
+    <p class="quote">Y si por un ratito esta cartita consigue darte calma o sacarte una sonrisa, entonces ya habrá cumplido perfectamente su propósito. 🌷</p>
+    <div class="divider"></div>
+    <div class="music-box"><p>Una canción suave para acompañar el resto del camino ♫</p><button class="btn" onclick="toggleMusic()">♫ Reproducir / pausar</button><p class="status" id="musicStatus"></p></div>
+    <div style="text-align:center;margin-top:27px"><a class="btn" href="#deseo">Hay una última cosita ✨</a></div>
+  </article>
+</section>
+
+<section class="screen night" id="deseo">
+  <div class="night-card">
+    <div class="eyebrow" style="color:#eadbe4">antes de irte ♡</div>
+    <h2>Pide un deseo 🌙</h2>
+    <p>Este no tienes que contárselo a nadie. Piensa solamente en algo bonito que quieras para ti y, cuando estés lista, toca la estrella.</p>
+    <div class="wish" onclick="makeWish()" role="button" tabindex="0">✦</div>
+    <div id="wishText">Ojalá este nuevo año llegue a tu vida como un amanecer después de una noche tranquila: poquito a poquito, sin prisa, llenando de luz aquello que necesite iluminarse. Feliz cumpleaños, July. 🤍</div>
+    <div class="footer">hecho con cariño, con calma y sin esperar nada a cambio ♡</div>
+  </div>
+</section>
+
+<script>
+const music=document.getElementById('bgMusic'),status=document.getElementById('musicStatus'),floatBtn=document.getElementById('floatingMusic');let wished=false;
+function openLetter(){document.getElementById('carta').scrollIntoView({behavior:'smooth'});petals();music.volume=.25;music.play().then(()=>{floatBtn.style.display='block';status.textContent='♫ música sonando suavemente'}).catch(()=>status.textContent='Puedes iniciar la música cuando quieras ♫')}
+function toggleMusic(){if(music.paused){music.volume=.25;music.play().then(()=>{floatBtn.style.display='block';status.textContent='♫ música sonando suavemente'}).catch(()=>status.textContent='Revisa que musica.mp3 esté junto a index.html.')}else{music.pause();status.textContent='música en pausa ♫'}}
+function petals(){for(let i=0;i<26;i++)setTimeout(()=>{const p=document.createElement('span');p.className='petal';p.style.left=Math.random()*100+'vw';p.style.setProperty('--drift',(-100+Math.random()*200)+'px');p.style.setProperty('--fall',(5+Math.random()*4)+'s');document.body.appendChild(p);setTimeout(()=>p.remove(),9500)},i*80)}
+const night=document.querySelector('.night');for(let i=0;i<90;i++){const s=document.createElement('span'),size=1+Math.random()*2.4;s.className='star';s.style.width=size+'px';s.style.height=size+'px';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.setProperty('--d',(1.4+Math.random()*3.8)+'s');night.appendChild(s)}
+function makeWish(){if(wished)return;wished=true;document.getElementById('wishText').classList.add('show');for(let i=0;i<30;i++){const x=document.createElement('span');x.textContent=i%3===0?'♡':'✦';x.style.cssText=`position:fixed;z-index:120;left:${46+Math.random()*8}vw;top:${44+Math.random()*9}vh;color:${i%3===0?'#ffd9e9':'white'};pointer-events:none;font-size:${9+Math.random()*18}px;transition:all 1.35s ease-out`;document.body.appendChild(x);requestAnimationFrame(()=>{x.style.transform=`translate(${-210+Math.random()*420}px,${-210+Math.random()*280}px) scale(.2)`;x.style.opacity='0'});setTimeout(()=>x.remove(),1450)}}
+document.querySelector('.wish').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();makeWish()}})
+</script>
+</body>
+</html>
